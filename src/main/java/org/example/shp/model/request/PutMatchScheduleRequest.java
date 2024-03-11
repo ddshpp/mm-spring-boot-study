@@ -5,8 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PatchMatchScheduleRequest {
+public class PutMatchScheduleRequest {
     private Long id;
     private String status;
-
 }

@@ -36,7 +36,9 @@ public class MatchSchedule {
     @Column(name = "status")
     private String status;
 
-    //TODO : 0305(2) 여기에 업데이트 함수를 만들어서 써도 됨
-
+    //TODO : [완] 0305(2) 여기에 업데이트 함수를 만들어서 써도 됨
+    public void updateStatus(String status) {
+        this.status = status;
+    }
 }
 
